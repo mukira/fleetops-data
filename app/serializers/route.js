@@ -1,1 +1,1 @@
-export { default } from '@fleetbase/fleetops-data/serializers/route';
+export { default } from '@lipagas/fleetops-data/serializers/route';

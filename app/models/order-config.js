@@ -1,1 +1,1 @@
-export { default } from '@fleetbase/fleetops-data/models/order-config';
+export { default } from '@lipagas/fleetops-data/models/order-config';

@@ -1,1 +1,1 @@
-export { default } from '@fleetbase/fleetops-data/serializers/tracking-number';
+export { default } from '@lipagas/fleetops-data/serializers/tracking-number';

@@ -1,1 +1,1 @@
-export { default } from '@fleetbase/fleetops-data/transforms/multi-polygon';
+export { default } from '@lipagas/fleetops-data/transforms/multi-polygon';

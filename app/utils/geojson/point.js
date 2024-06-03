@@ -1,1 +1,1 @@
-export { default } from '@fleetbase/fleetops-data/utils/geojson/point';
+export { default } from '@lipagas/fleetops-data/utils/geojson/point';

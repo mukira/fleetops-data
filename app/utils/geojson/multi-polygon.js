@@ -1,1 +1,1 @@
-export { default } from '@fleetbase/fleetops-data/utils/geojson/multi-polygon';
+export { default } from '@lipagas/fleetops-data/utils/geojson/multi-polygon';

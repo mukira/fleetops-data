@@ -1,1 +1,1 @@
-export { default } from '@fleetbase/fleetops-data/adapters/customer';
+export { default } from '@lipagas/fleetops-data/adapters/customer';
