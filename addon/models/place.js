@@ -3,7 +3,7 @@ import { tracked } from '@glimmer/tracking';
 import { computed, get } from '@ember/object';
 import { not } from '@ember/object/computed';
 import { format as formatDate, isValid as isValidDate, formatDistanceToNow } from 'date-fns';
-import isValidCoordinates from '@fleetbase/ember-core/utils/is-valid-coordinates';
+import isValidCoordinates from '@lipagas/ember-core/utils/is-valid-coordinates';
 import config from 'ember-get-config';
 
 export default class PlaceModel extends Model {

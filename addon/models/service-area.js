@@ -1,8 +1,8 @@
 import Model, { attr, hasMany } from '@ember-data/model';
 import { computed } from '@ember/object';
 import { format as formatDate, isValid as isValidDate, formatDistanceToNow } from 'date-fns';
-import getWithDefault from '@fleetbase/ember-core/utils/get-with-default';
-import first from '@fleetbase/ember-core/utils/first';
+import getWithDefault from '@lipagas/ember-core/utils/get-with-default';
+import first from '@lipagas/ember-core/utils/first';
 
 export default class ServiceAreaModel extends Model {
     /** @ids */

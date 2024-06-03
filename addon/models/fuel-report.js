@@ -2,7 +2,7 @@ import Model, { attr, belongsTo } from '@ember-data/model';
 import { computed } from '@ember/object';
 import { getOwner } from '@ember/application';
 import { format as formatDate, isValid as isValidDate, formatDistanceToNow } from 'date-fns';
-import isRelationMissing from '@fleetbase/ember-core/utils/is-relation-missing';
+import isRelationMissing from '@lipagas/ember-core/utils/is-relation-missing';
 
 export default class FuelReportModel extends Model {
     /** @ids */

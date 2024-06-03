@@ -3,10 +3,10 @@ import { computed, get } from '@ember/object';
 import { not } from '@ember/object/computed';
 import { getOwner } from '@ember/application';
 import { format as formatDate, isValid as isValidDate, formatDistanceToNow } from 'date-fns';
-import isRelationMissing from '@fleetbase/ember-core/utils/is-relation-missing';
-import isValidCoordinates from '@fleetbase/ember-core/utils/is-valid-coordinates';
-import isLatitude from '@fleetbase/ember-core/utils/is-latitude';
-import isLongitude from '@fleetbase/ember-core/utils/is-longitude';
+import isRelationMissing from '@lipagas/ember-core/utils/is-relation-missing';
+import isValidCoordinates from '@lipagas/ember-core/utils/is-valid-coordinates';
+import isLatitude from '@lipagas/ember-core/utils/is-latitude';
+import isLongitude from '@lipagas/ember-core/utils/is-longitude';
 import config from 'ember-get-config';
 
 export default class DriverModel extends Model {

@@ -1,4 +1,4 @@
-import ApplicationAdapter from '@fleetbase/ember-core/adapters/application';
+import ApplicationAdapter from '@lipagas/ember-core/adapters/application';
 
 export default class FacilitatorVendorAdapter extends ApplicationAdapter {
     /**
